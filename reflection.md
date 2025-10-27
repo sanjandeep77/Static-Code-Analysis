@@ -1,6 +1,6 @@
 # Reflection
 
-**What I fixed and why (short):**
+**What I fixed and why :**
 - Replaced bare `except` with specific exceptions to avoid hiding bugs.
 - Removed `eval()` to eliminate a security risk flagged by Bandit.
 - Added input validation to prevent invalid states (negative or wrong-typed quantities).
